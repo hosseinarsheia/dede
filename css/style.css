@@ -1,7 +1,8 @@
 body{
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color: rgb(138, 136, 136);
     overflow-x: hidden;
+    height: 3000px
 }
 
 /***************  header **************/
@@ -24,21 +25,46 @@ header {
 h1{
     font-family: 'Parisienne', cursive;
     font-size: 10rem;
+    color: white;
 }
+
 @media only screen and (max-width: 680px) {
     h1{
         font-size: 6rem;
     }
+
 }
+   
 
 .arrow{
     transform: rotate(45deg);
     padding-bottom: 4.5rem !important;
     border: 2px solid white;
     border-radius: 10px;
+    z-index: 2;
+    color: white;
 }
 .arrow-self{
     transform: translate(0,-5.9rem) rotate(0);
     font-size: 3rem;
+}
+
+
+/***************** section ****************/
+h2{
+    font-family: 'Parisienne', cursive;
+    font-size: 4rem;
+    color: #BC7369;
 
 }
+
+.coffe-icons{
+    transform: translate(0,-7rem) 
+}
+#middle-icons{
+    background-color: #BC7369 ;
+    opacity: 0.9;
+}
+
+
+

@@ -2,7 +2,6 @@ body{
     font-family: 'Raleway', sans-serif;
     color: rgb(138, 136, 136);
     overflow-x: hidden;
-    height: 30000px
 }
 
 
@@ -117,6 +116,12 @@ input[type="text"]::-webkit-input-placeholder {
     color: white;
   }
 
+
+  /************** events **************/
+  .my-smal-text{
+      font-size: 0.8rem;
+      /* line-height: ;  */
+}
 
 
 
